@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start ZenOS Z10!</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, #264653, #2a0944);
+        }
+
+        .centered-body {
+            background-color: #1e1e1e;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        h3 {
+            color: white;
+            margin: 10px 0;
+        }
+
+        p {
+            color: lightgray;
+            margin: 5px 0;
+        }
+
+        .rounded-button {
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .rounded-button:hover {
+            background-color: #8a2be2;
+        }
+
+        .loading-circle {
+            width: 40px;
+            height: 40px;
+            border: 5px solid rgba(106, 13, 173, 0.3);
+            border-top-color: #6a0dad;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            display: none;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .loading-text {
+            color: lightgray;
+            display: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .centered-body {
+                width: 70%;
+                height: 200px;
+            }
+        }
+
+        @media only screen and (min-width: 769px) {
+            .centered-body {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="centered-body">
+        <div>
+            <h3>ZenOS Z10</h3>
+            <p>Ready to load ZenOS?</p>
+        </div>
+        <button class="rounded-button" onclick="showLoading()">Load</button>
+        <div class="loading-circle"></div>
+        <p class="loading-text">Starting ZenOS Z10, please wait...</p>
+    </div>
+
+    <script>
+        function showLoading() {
+            document.querySelector('.rounded-button').style.display = 'none';
+            document.querySelector('.loading-circle').style.display = 'block';
+            document.querySelector('.loading-text').style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = 'setting-up/index.html';
+            }, 5000);
+        }
+    </script>
+
+</body>
+</html>
