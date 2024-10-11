@@ -1,5 +1,5 @@
 ### About ZenOS
-ZenOS is a custom ROM for Android, bringing several enhanced and extended features to Android. The project was first started 2020 and has been worked on ever since.
+ZenOS is a custom ROM for Android, bringing several enhanced and extended features to Android. The project was first started in 2020 and has been worked on ever since.
 
 ### Support
 Android versions:  
@@ -59,44 +59,44 @@ The devices above are the only ones that ZenOS have been tested on. If You have 
 - ROM Size: 5.5GB  
 
 ### Noted Apps
-- Zen Browser  
-- NewPipe  
-- Zen VPN  
-- Tor Browser  
-- Contacts: by SZ Developments  
-- Messages: by SZ Developments  
-- Dial: by SZ Developments  
-- Calculator: by SZ Developments  
-- Calender: by SZ Developments  
-- Camera: by SZ Developments  
-- Clock: by SZ Developments  
-- Notes: by SZ Developments  
-- Media Centre: by SZ Developments  
-- Voice Recorder: by SZ Developments  
-- File Manager: by SZ Developments  
-- RAR  
-- MicroG Manager  
-- SIM Tools: by SZ Developments  
-- Phone Specs: by SZ Developments  
+- Zen Browser (web browser / search engine)  
+- NewPipe (YouTube alternative)  
+- Zen VPN (privacy focused VPN)  
+- Tor Browser (Tor browser & services)  
+- Contacts: by SZ Developments (contacts application)  
+- Messages: by SZ Developments (SMS messaging application)  
+- Dial: by SZ Developments (phone dialer application)  
+- Calculator: by SZ Developments (calculator application)  
+- Calender: by SZ Developments (calender application)  
+- Camera: by SZ Developments (AI based camera application)  
+- Clock: by SZ Developments (clock, timer & utilities application)  
+- Notes: by SZ Developments (code based notepad application)  
+- Media Centre: by SZ Developments (image, video & audio application)  
+- Voice Recorder: by SZ Developments (AI based voice recording application)  
+- File Manager: by SZ Developments (file manager application)  
+- RAR (RAR mobile)  
+- MicroG Manager (custom GMS framework)  
+- SIM Tools: by SZ Developments (SIM card & networks manager application)  
+- Phone Specs: by SZ Developments (specifications viewer application)  
 
 ### Noted Features
-- Custom themes  
-- De-Googled  
-- All apps can be uninstalled  
-- ROM allows the use of all SIM networks  
-- Custom Developer options  
-- Extended / advanced WiFi & Bluetooth settings  
-- Custom preset launcher selection  
-- Customisable home screen & settings  
+- Custom themes (light / dark / amoled, gradient, image / video, etc)  
+- De-Googled (no Google based apps or services)  
+- All apps can be uninstalled (every single application can be uninstalled)  
+- ROM allows the use of all SIM networks (the OS allows all SIM cards to be used)  
+- Custom Developer options (custom made Developer options which offer extended funtionality)  
+- Extended / advanced WiFi & Bluetooth settings (extra options that can't be found in stock ROM's)  
+- Custom preset launcher selection (a selection of preset home screen launchers)  
+- Customisable home screen & settings (the whole home screen and settings categories can be fully customised)  
 
 ### Download
-The download isn't currently public. If You'd like to Test out the ROM, You can contact Us using the info below. If You'd like to buy the full ROM, it costs £15 (the full ROM is different to the testing ROM).
+The download isn't currently public. If You'd like to Test out the ROM, You can contact Us using the info below. If You'd like to buy the full ROM, it costs £15 (the full ROM is different to the testing ROM and has nearly triple the features).
 
-### Notes
-This section will be updated soon!
+> [!NOTE]
+> This section will be updated soon!
 
-### Warnings
-This section will be updated soon!
+> [!WARNING]
+> If You're a Tester or a Buyer and use Our ROM, We ARE NOT responsible for anything that happens to Your device!
 
 ### FAQ
 This section will be updated soon!
